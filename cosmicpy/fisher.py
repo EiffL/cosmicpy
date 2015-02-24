@@ -2,7 +2,7 @@
 # Licensed under CeCILL 2.1 - see LICENSE.rst
 """
 :mod:`cosmicpy.fisher` -- Fisher forecasts
-=========================================
+==========================================
 
 .. module:: cosmicpy.fisher
     :synopsis: Computes Fisher Matrices

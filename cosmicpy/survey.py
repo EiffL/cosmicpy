@@ -2,7 +2,7 @@
 # Licensed under CeCILL 2.1 - see LICENSE.rst
 """
 :mod:`cosmicpy.survey` -- Galaxy survey representation
-=====================================================
+======================================================
 
 .. module:: cosmicpy.survey
     :synopsis: Contains surveys related objects and functions

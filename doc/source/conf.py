@@ -341,3 +341,5 @@ intersphinx_mapping = {'http://docs.python.org/': None}
 numpydoc_show_class_members = True
 autosummary_generate = True
 
+# IPython configuration
+ipython_execlines = ['from pylab import *']

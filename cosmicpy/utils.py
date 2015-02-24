@@ -2,7 +2,7 @@
 # Licensed under CeCILL 2.1 - see LICENSE.rst
 '''
 :mod:`cosmicpy.utils` -- Utility functions
-=========================================
+==========================================
 
 .. module:: cosmicpy.utils
     :synopsis: Utility functions

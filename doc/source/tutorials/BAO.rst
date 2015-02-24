@@ -22,9 +22,6 @@ We define 2 such surveys, one shallow with :math:`r_0 = 100 \quad h^{-1}` Mpc an
 .. ipython::
     :okwarning:
 
-    @suppress
-    In [0]: import matplotlib; matplotlib.use('Agg');from pylab import *;
-
     In [1]: from cosmicpy import *
 
     In [2]: cosmo = cosmology()
@@ -142,8 +139,10 @@ In Spherical Fourier-Bessel space, we consider the ratio :math:`R_\ell^C (k)` gi
 where :math:`C_\ell^\mathrm{b}(k)` is the diagonal SFB power spectrum including the physical effects of baryons and :math:`C_\ell^\mathrm{nob}(k)` is the 
 smooth part of the SFB power spectrum. Here we use the :py:meth:`spectra.cl_sfb` method:
 
+.. The following plot is not computed each time the documentation is built only to save time
+.. To make the plot, remove the verbatim option and add @savefig BAO-4.png at the last line
 .. ipython::
-    :okwarning:
+    :verbatim:
 
     In [11]: k = logspace(-3,log(0.25)/log(10),100)
 
@@ -163,8 +162,7 @@ smooth part of the SFB power spectrum. Here we use the :py:meth:`spectra.cl_sfb`
     
     In [22]: contourf(l,k,R_deep.T,256);
 
-    @savefig BAO-4.png
     In [23]: xlabel('l'); ylabel('k [h/Mpc]'); title(r'Wide and Deep survey');
    
-
+.. image:: ../_images/BAO-4.png
     

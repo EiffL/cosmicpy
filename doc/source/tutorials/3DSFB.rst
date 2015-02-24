@@ -28,9 +28,6 @@ We create a survey following these parameters in cosmicpy using:
 .. ipython::
     :okwarning:
 
-    @suppress
-    In [0]: import matplotlib; matplotlib.use('Agg'); from pylab import *;
-
     In [1]: from cosmicpy import *
 
     In [2]: cosmo = cosmology()

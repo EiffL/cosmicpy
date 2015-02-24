@@ -2,7 +2,7 @@
 # Licensed under CeCILL 2.1 - see LICENSE.rst
 """
 :mod:`cosmicpy.cosmology` -- Cosmology module
-============================================
+=============================================
 
 .. module:: cosmicpy.cosmology
     :synopsis: Performs cosmology related computations

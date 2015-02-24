@@ -3,7 +3,7 @@
 .. currentmodule:: cosmicpy.cosmology
 
 Getting Started with CosmicPy
-============================
+=============================
 
 First, start an :program:`ipython` sesion in pylab mode::
 
@@ -15,9 +15,6 @@ interactive plotting environment.
 Once :program:`ipython` is running, you can import the cosmicpy package:
 
 .. ipython::
-
-    @suppress
-    In [0]: import matplotlib; matplotlib.use('Agg'); from pylab import *;
 
     In [1]: from cosmicpy import *
 

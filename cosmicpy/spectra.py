@@ -2,7 +2,7 @@
 # Licensed under CeCILL 2.1 - see LICENSE.rst
 """
 :mod:`cosmicpy.spectra` -- Clustering and lensing power spectra
-==============================================================
+===============================================================
 
 .. module:: cosmicpy.spectra
     :synopsis: Computes galaxy spectra
